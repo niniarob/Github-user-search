@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+
+*,*::after,
+*::before{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Space Mono", monospace;
+}
+:root{
+    --DarkMoonBody:#141D2F;
+    --DarkMoonCard:#1E2A47;
+    --LightSunBody: #F6F8FF;
+    --LightSunCard: #FEFEFE;
+    --SearchBackground:#0079FF;
+    --white:#fff;
+    --LogoColor:#222731;
+    --LinkColor:#4B6A9B
+}   
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--LightSunBody);
+    padding: 31px 24px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+.title{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+}
+.title.dark{
+    color: #fff;
+}
+.dark-text{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+.dark-text.dark{
+    color: #fff;
+}
+#Pathh{
+    fill: #222731;
+}
+.light-text{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #fff;
+    display: none;
+}
+.mode{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+#sun{
+    display: none;
+}
+.form{
+    width: 100%;
+    background-color: #fff;
+    padding: 7px 7px 7px 7px;
+    margin-top: 36px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+}
+#user{
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    margin-left: 9px;
+    color: #222731;
+    width: 184px;
+}
+
+#user::placeholder{
+    color: #4B6A9B;
+    font-family: "Space Mono"
+}
+#user.dark::placeholder{
+    color: white;
+}
+.btn{
+    padding:12px 16px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20.73px;
+    background-color: var(--SearchBackground);
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 7px;
+}
+.btn:hover{
+    background-color: #60ABFF;
+    transition: 0.5s;
+}
+.user-info{
+    width: 100%;
+    border-radius: 15px;
+    background-color: var(--white);
+    margin-top: 30px;
+    padding: 49px 24px;
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+}
+.avatar-desktop{
+    display: none;
+}
+.general{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+.avatar-mobile{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+}
+.name{
+    color: #2B3442;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: capitalize;
+    font-family: "Space Mono";
+}
+.login{
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 19.25px;
+   color: #0079FF;
+}
+.join-date{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19.25px;
+    color: #697C9A;
+    margin-top: 6px;
+    font-family: "Space Mono"
+}
+.bio{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: #4B6A9B; 
+    margin-top: 33px;
+    font-family: "Space Mono";
+}
+.stats{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+    background-color: #F6F8FF;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.stat{
+    text-align: center;
+
+}
+.stat-title{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    color: #4B6A9B;
+    text-transform: capitalize;
+}
+.amount{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 8px;
+    color:#2B3442;
+}
+.locations{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 16px;
+}
+.location-info{
+    position: relative;
+}
+.location-text{
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 20px;
+   color: #4B6A9B;
+   position: absolute;
+   font-family: "Space Mono";
+   top: 0;
+   left: 33px;
+}
+.location-link{
+    text-decoration: none;
+}
+#loading-Gif{
+    margin-top: 170px;
+}

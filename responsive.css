@@ -1,0 +1,110 @@
+@media screen and (min-width:800px){
+   body{
+    padding: 20px 120px;
+  }
+   .form{
+    justify-content: space-between;
+    padding: 12px 20px 12px 20px; 
+  }
+   #user{
+    width: 59%;
+    margin-left: -40px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+   .avatar-mobile{
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+  }
+   .general{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+   .info{
+    width: 100%;
+  }
+   .locations{
+   grid-template-columns:auto auto;
+   margin-top: 30px;
+  }
+   .name{
+    font-size: 26px;
+  }
+   .login{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+    .join-date{
+    font-size: 15px;
+  }
+    .personal{
+    margin-left: 41px;
+  }
+    .bio{
+    font-size: 15px;
+    margin-top: 38px;
+  }
+   .stat{
+    text-align: start;
+  }
+   .stats{
+    justify-content: space-around; 
+    padding: 15px 90px 15px 20px;
+    margin-top: 33px;
+  }
+   .stat-title{
+    font-size: 13px;
+  }
+   .amount{
+    font-size: 22px;
+  }
+   .location-text{
+    font-size: 15px;
+  }
+   .btn{
+    width: 106px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width:1400px){
+    body{
+        width: 100%;
+        padding: 35px 350px;
+    }
+    .avatar-mobile{
+        display: none;
+    }
+    .avatar-desktop{
+        display: block;
+        width: 117px;
+        height: 117px;
+        border-radius: 50%;
+    }
+    .personal{
+        display: flex;
+    }
+    .user-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .info{
+        margin-left: 37px;
+    }
+    .personal{
+        margin-left: 0px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    #user{
+        margin-left: -90px;
+    }
+    .form{
+        padding: 12px 20px 12px 20px; 
+    }
+}
